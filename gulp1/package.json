@@ -1,0 +1,39 @@
+{
+    "name": "gulp",
+    "version": "1.0.0",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "browserify": "^16.2.2",
+        "gulp": "^3.9.1",
+        "watchify": "^3.11.0"
+    },
+    "devDependencies": {
+        "browserify-shim": "^3.8.14",
+        "run-sequence": "^2.2.1"
+    },
+    "browserify": {
+        "transform": ["browserify-shim"]
+    },
+    "browserify-shim": {
+        "angular": "angular",
+        "lodash": "_"
+    },
+    "broeser": {
+        "angular": "./bower_components/angular/angular.js",
+        "lodash": "./bower_components/lodash/dist/lodash.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kt023/gulp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kt023/gulp/issues"
+    },
+    "homepage": "https://github.com/kt023/gulp#readme",
+    "description": ""
+}
